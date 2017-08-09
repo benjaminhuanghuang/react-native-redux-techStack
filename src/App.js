@@ -24,7 +24,7 @@ export default class App extends Component {
     return (
       <Provider store = {createStore(reducers)}>
         <View>
-          <Header headerText={"Tech Stack"} />
+          <Header headerText="Tech Stack"></Header>
         </View>
       </Provider>
     );
