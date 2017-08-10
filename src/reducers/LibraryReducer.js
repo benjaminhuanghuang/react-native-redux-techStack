@@ -1,5 +1,5 @@
 import data from '../../data/library-list.json'
 
-export default () => {
+export default (state, action) => {
   return data;
 }
