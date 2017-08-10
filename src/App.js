@@ -5,6 +5,7 @@ import { createStore } from 'redux';
 
 //
 import { Header, Button, Spinner, CardSection } from './components/common';
+import LibraryList from './components/LibraryList';
 import reducers from "./reducers";
 //
 export default class App extends Component {
@@ -25,6 +26,7 @@ export default class App extends Component {
       <Provider store = {createStore(reducers)}>
         <View>
           <Header headerText="Tech Stack"></Header>
+          <LibraryList></LibraryList>
         </View>
       </Provider>
     );
